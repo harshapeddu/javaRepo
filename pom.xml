@@ -1,7 +1,18 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
   <name>demo1</name>
- 
+ <groupId>org.example</groupId>
+  <artifactId>sample</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+
+  <scm>
+      <connection>https://github.com/harshapeddu/javaRepo.git</connection>
+  </scm>
+  <ciManagement>
+      <system>jenkins</system>
+      <url>https://my.jenkins.internal/jenkins</url>
+  </ciManagement>
   <repositories>
     <repository>
       <id>sample</id>
