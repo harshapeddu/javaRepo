@@ -20,7 +20,7 @@
       <layout>default</layout>
       <url>http://dockerm1.local.com:8081/repository/sample/</url>
       <snapshots>
-      <url>http://dockerm1.local.com:8081/repository/sample/</url>
+        <enabled>true</enabled>
       </snapshots>
     </repository>
   </repositories>
