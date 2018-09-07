@@ -20,12 +20,10 @@
       <layout>default</layout>
       <url>http://dockerm1.local.com:8081/repository/sample/</url>
       <snapshots>
-        <distributionManagement>
-   <snapshotRepository>
+      <snapshotRepository>
       <id>sample</id>
       <url>http://dockerm1.local.com:8081/repository/sample/</url>
-   </snapshotRepository>
-</distributionManagement>
+      </snapshotRepository>
       </snapshots>
     </repository>
   </repositories>
